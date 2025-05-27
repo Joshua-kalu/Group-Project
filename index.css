@@ -1,0 +1,100 @@
+body {
+  background: url(background-home-desktop.jpg) no-repeat center center fixed;
+}
+#navbar a {
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  color: white;
+  display: inline;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+#navbar a:hover,
+a.active {
+  border-bottom: 3px solid white;
+}
+#navbar ul {
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.068);
+  width: 700px;
+  float: right;
+}
+#navbar li {
+  float: right;
+  position: relative;
+}
+
+#navbar .text {
+  font-size: 16px;
+  display: inline-block;
+  font-weight: lighter;
+}
+#icon {
+  display: inline;
+  float: left;
+  margin-left: 55px;
+  padding-top: 20px;
+}
+#line {
+  width: 250px;
+  height: 1px;
+  background-color: white;
+  margin-left: 140px;
+  margin-top: 45px;
+  float: left;
+}
+.number {
+  font-weight: bold;
+}
+#explore {
+  font-family: "Barlow";
+  background-color: white;
+  color: #0b0d17;
+  border: none;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  float: right;
+  margin-right: 130px;
+  margin-top: 25%;
+}
+#text {
+  float: left;
+  width: 450px;
+  margin-left: 165px;
+  margin-top: 187px;
+}
+.text1 {
+  font-weight: light;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "Barlow";
+  font-size: 150px;
+  font-weight: 250;
+  color: white;
+  margin: 0;
+}
+h5 {
+  font-size: 16px;
+  letter-spacing: 6px;
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+}
+p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 450px;
+  color: #d0d6f9;
+  margin-bottom: 60px;
+}

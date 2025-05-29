@@ -1,14 +1,20 @@
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 #icon {
 =======
 /*Icon image*/
 #icon { 
 >>>>>>> Stashed changes
+=======
+/*Icon image*/
+#icon { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   display: inline;
   float: left;
   margin-left: 55px;
   padding-top: 20px;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 #line {
@@ -22,10 +28,18 @@
   height: 1px;
   background-color: rgba(255, 255, 255, 0.1) ;
 >>>>>>> Stashed changes
+=======
+/*Line between icon and navbar*/
+#line { 
+  width: 255px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1) ;
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   margin-left: 140px;
   margin-top: 45px;
   float: left;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 #navbar a {
@@ -33,6 +47,10 @@
 /*Navbar links*/
 #navbar a { 
 >>>>>>> Stashed changes
+=======
+/*Navbar links*/
+#navbar a { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-family: "Barlow", sans-serif;
   text-decoration: none;
   color: white;
@@ -42,12 +60,17 @@
   font-size: 16px;
   letter-spacing: 2px;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
+=======
+/*Navbar links hover and active*/
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
 #navbar a:hover,
-a.active {
+a.active { 
   border-bottom: 3px solid rgba(255, 255, 255, 0.342);
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 
 #navbar ul {
 =======
@@ -59,6 +82,10 @@ a.active {
 /*Navbar unordered list*/
 #navbar ul { 
 >>>>>>> Stashed changes
+=======
+/*Navbar unordered list*/
+#navbar ul { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   list-style-type: none;
   padding: 20px;
   overflow: hidden;
@@ -67,6 +94,7 @@ a.active {
   float: right;
   backdrop-filter: blur(30px);
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 #navbar li {
@@ -84,10 +112,20 @@ a.active {
 /*Navbar text*/
 #navbar .text { 
 >>>>>>> Stashed changes
+=======
+/*Navbar list items*/
+#navbar li { 
+  float: right;
+  position: relative;
+}
+/*Navbar text*/
+#navbar .text { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-size: 16px;
   display: inline-block;
   font-weight: lighter;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 .number {
@@ -105,11 +143,21 @@ a.active {
 /*Navbar text with number*/
 .text1, .text4 {  
 >>>>>>> Stashed changes
+=======
+/*Number in navbar*/
+.number { 
+  font-weight: bold;
+  font-family: "barlow condensed", sans-serif;
+}
+/*Navbar text with number*/
+.text1, .text4 {  
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-weight: lighter;
   font-size: 14px;
   letter-spacing: 3px;
   font-family: "barlow condensed", sans-serif;
   font-weight: 200;
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 }
 
@@ -120,11 +168,18 @@ a.active {
 /*main text section on index page*/
 #text { 
 >>>>>>> Stashed changes
+=======
+  color: white;
+}
+/*main text section on index page*/
+#text { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   float: left;
   width: 450px;
   margin-left: 165px;
   margin-top: 187px;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 h1 {
@@ -134,11 +189,17 @@ h1 {
 h1 { 
   font-family: "elegant", serif;
 >>>>>>> Stashed changes
+=======
+/*Main title on pages*/
+h1 { 
+  font-family: "elegant", serif;
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-size: 150px;
   font-weight: 250;
   color: white;
   margin: 0;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 h5 {
@@ -146,6 +207,10 @@ h5 {
 /*Text after main title on index page*/
 h5 { 
 >>>>>>> Stashed changes
+=======
+/*Text after main title on index page*/
+h5 { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-size: 20px;
   letter-spacing: 6px;
   color: #d0d6f9;
@@ -153,6 +218,7 @@ h5 {
   font-weight: light;
   font-weight: 300;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 p {
@@ -160,6 +226,10 @@ p {
 /*Text paragraph on index page*/
 #p-1 { 
 >>>>>>> Stashed changes
+=======
+/*Text paragraph on index page*/
+#p-1 { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-family: "Barlow condensed", sans-serif;
   font-weight: 200;
   font-size: 18px;
@@ -168,6 +238,7 @@ p {
   color: #d0d6f9;
   margin-bottom: 60px;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 #explore {
@@ -175,6 +246,10 @@ p {
 /*Button on index page*/
 #explore { 
 >>>>>>> Stashed changes
+=======
+/*Button on index page*/
+#explore { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-family: "Trajan Pro,";
   background-color: white;
   color: #0b0d17;
@@ -189,13 +264,23 @@ p {
   margin-right: 130px;
   margin-top: 25%;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 #body1{
   background: url(assets/home/background-home-desktop.jpg) no-repeat center center fixed;
+=======
+/*Body of index page*/
+#body1 {
+  background: url(assets/home/background-home-desktop.jpg) no-repeat center
+    center fixed;
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   margin-right: 0px;
+  background-size: cover;
+  background-position: center;
 }
 
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 /* CSS FOR DESTINATION*/
 #navbar2 a {
 =======
@@ -208,12 +293,17 @@ p {
   background-position: center;
 }
 
+=======
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
 
 /*Title: Destination Moon*/
 
 /*Links on destination page*/
 #navbar2 a { 
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 >>>>>>> Stashed changes
+=======
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-family: "Barlow", sans-serif;
   text-decoration: none;
   color: white;
@@ -223,16 +313,23 @@ p {
   font-size: 16px;
   letter-spacing: 2px;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 #navbar2{
   float:right;
+=======
+/*Navbar on destination page*/
+#navbar2 { 
+  float: right;
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
 }
-
+/*Hover effect on navbar links in destination page*/
 #navbar2 a:hover,
-a.active {
+a.active { 
   border-bottom: 3px solid white;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 
 #navbar2 ul {
 =======
@@ -248,12 +345,17 @@ a.active {
 /*Navbar list on destination page*/
 #navbar2 ul { 
 >>>>>>> Stashed changes
+=======
+/*Navbar list on destination page*/
+#navbar2 ul { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   list-style-type: none;
   padding: 20px;
   overflow: hidden;
   width: 700px;
   float: right;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 #navbar2 li {
@@ -271,55 +373,85 @@ a.active {
 /*Navbar text on destination page*/
 #navbar2 .text { 
 >>>>>>> Stashed changes
+=======
+/*Navbar list items on destination page*/
+#navbar2 li { 
+  float: right;
+  position: relative;
+}
+/*Navbar text on destination page*/
+#navbar2 .text { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-size: 16px;
   display: inline-block;
   font-weight: lighter;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 <<<<<<< Updated upstream
 
 .number2{
+=======
+/*Number on destination page*/
+.number2 { 
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: rgba(255, 255, 255, 0.169);
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
-
-.text2{
+/* pick your destination text on destination page*/
+.text2{ 
   font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  letter-spacing: 6px;
+}
+/*Paragraph items in contain2 div*/
+ #p-2{ 
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-weight: lighter 200;
+  letter-spacing: 2px; 
+ }
+ /*Text paragraph on destination page*/
+#text3 { 
+  font-family: "barlow condensed", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+  line-height: 1.8;
   color: white;
-  font-weight: lighter;
-  letter-spacing: 2px;
 }
-#text3{
-  font-family: "barlow condensed" , sans-serif;
-  font-weight: lighter;
-  letter-spacing: 2px;
-}
-#line2{
+/*Line on destination page*/
+#line2 { 
   width: 445px;
-  height: 0.5px;
-  background-color: white;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1) ;
   margin-top: 70px;
   margin-bottom: 30px;
 }
-
-#mymoon{
-  margin-top: 193px;
+/*Moon image on destination page*/
+#mymoon { 
+  margin-top: 283px;
   margin-right: 50px;
-  margin-left: 180px;
+  margin-left: 100px;
   width: 445px;
+  padding-top: 0px;
 }
-#contain{
+/*Second navbar on destination page*/
+#contain { 
   width: 445px;
   height: 272px;
   float: right;
-  margin-right: 100px;
+  margin-right: 150px;
   margin-top: 150px;
 }
-#body2{
-  background: url(assets/destination/background-destination-desktop.jpg) no-repeat center center fixed;
-  margin-right: 0px;
-  color: white;
+/*Section for grided items at the bottom*/
+#contain2{ 
+  display: flex;
+  gap: 6rem;
 }
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 
 
 
@@ -383,6 +515,8 @@ a.active {
   display: flex;
   gap: 6rem;
 }
+=======
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css
 /*Body of the destination moon page*/
 #body2 { 
   background: url(assets/destination/background-destination-desktop.jpg)
@@ -402,5 +536,9 @@ a.active {
 /*Title: Destination Europa*/
 #body4{
   background: url(assets/destination/background-destination-desktop.jpg);
+<<<<<<< HEAD:space-tourism-website-main/starter-code/index.css
 }
 >>>>>>> Stashed changes
+=======
+}
+>>>>>>> 25c6e783f30572430aa2099832f893274bc4838e:Group-Project/space-tourism-website-main/starter-code/index.css

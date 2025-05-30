@@ -24,9 +24,10 @@ body {
   background-size: cover;
   color: #fff;
   font-family: 'Barlow';
+  padding-top: 30px;
 }
 
-/* Navigation 1 */
+
  /*Icon image*/
 #icon { 
   display: inline;
@@ -59,6 +60,7 @@ body {
   padding: 29px 15px;
   font-size: 16px;
   letter-spacing: 2px;
+  position: relative;
 }
 /*Navbar links hover and active*/
 #navbar .other:hover { 
@@ -106,56 +108,7 @@ a.active {
 }
 
 
-/* end */
-/* Navigation Styles */
-/* nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
-}
-
-.logo {
-  margin-right: 4rem;
-}
-
-.navigation {
-  display: flex;
-  list-style: none;
-  gap: 3rem;
-  margin: 0;
-  padding: 2rem 2rem;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(81.5485px);
-  
-}
-
-.navigation a {
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2.7px;
-  font-size: 16px;
-  padding: 2rem 0;
-  border-bottom: 3px solid transparent;
-  transition: border-color 0.3s ease;
-}
-
-.navigation span {
-  font-weight: 700;
-  margin-right: 0.5rem;
-}
-
-.navigation li.active a
- {
-  border-bottom: 3px solid #fff;
-}
-
-.navigation a:hover {
-  border-bottom-color: rgba(255, 255, 255, 0.5);
-} */
-
-/* Main Content Styles */  
+ 
 .content {
   clear: both;
   display: grid;

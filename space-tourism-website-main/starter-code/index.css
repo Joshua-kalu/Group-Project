@@ -186,7 +186,9 @@ a.active {
 /*Number on destination page*/
 .number2 { 
   font-size: 20px;
+  font-family: "barlow condensed", sans-serif;
   font-weight: bold;
+  letter-spacing: 6px;
   color: rgba(255, 255, 255, 0.169);
   font-size: 1.5rem;
   margin-right: 1rem;
@@ -194,6 +196,8 @@ a.active {
 /* pick your destination text on destination page*/
 .text2{ 
   font-size: 24px;
+  font-family: "barlow condensed", sans-serif;
+  font-weight: 400;
   color: rgb(255, 255, 255);
   font-weight: lighter;
   letter-spacing: 6px;

@@ -7,38 +7,43 @@
 }
 /*Line between icon and navbar*/
 #line { 
-  width: 255px;
-  height: 1px;
+  width: 537px;
+  height: 0.9px;
   background-color: rgba(255, 255, 255, 0.1) ;
   margin-left: 140px;
   margin-top: 45px;
   float: left;
+  -webkit-mask-image: linear-gradient( to right, black 90%, transparent 100%);
+  mask-image: linear-gradient( to right, black 90%, transparent 100%);
 }
 /*Navbar links*/
 #navbar a { 
   font-family: "Barlow", sans-serif;
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
   color: white;
   display: inline;
   text-align: center;
-  padding: 15px;
+  padding: 29px 15px;
   font-size: 16px;
   letter-spacing: 2px;
 }
 /*Navbar links hover and active*/
-#navbar a:hover,
-a.active { 
+#navbar .other:hover { 
   border-bottom: 3px solid rgba(255, 255, 255, 0.342);
 }
 /*Navbar unordered list*/
 #navbar ul { 
   list-style-type: none;
-  padding: 20px;
+  padding: 30px 0px;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.068);
   width: 700px;
   float: right;
   backdrop-filter: blur(30px);
+  -webkit-mask-image: linear-gradient( to left, black 70%, transparent 100%);
+  mask-image: linear-gradient( to left, black 70%, transparent 100%);
 }
 /*Navbar list items*/
 #navbar li { 
@@ -74,9 +79,10 @@ a.active {
 }
 /*Main title on pages*/
 h1 { 
-  font-family: "elegant", serif;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
   font-size: 150px;
-  font-weight: 250;
+  font-style: normal;
   color: white;
   margin: 0;
 }
@@ -101,7 +107,9 @@ h5 {
 }
 /*Button on index page*/
 #explore { 
-  font-family: "Trajan Pro,";
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: white;
   color: #0b0d17;
   border: none;
@@ -114,6 +122,15 @@ h5 {
   float: right;
   margin-right: 130px;
   margin-top: 25%;
+}
+#explore a{
+  text-decoration: none;
+  color: #0b0d17;
+}
+
+#explore:hover { 
+  box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.223);
+  background-color: rgb(243, 233, 243);
 }
 /*Body of index page*/
 #body1 {

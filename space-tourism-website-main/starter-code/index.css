@@ -223,7 +223,7 @@ a.active {
 }
 /*Moon image on destination page*/
 #mymoon { 
-  margin-top: 283px;
+  margin-top: 240px;
   margin-right: 50px;
   margin-left: 100px;
   width: 445px;
@@ -235,7 +235,7 @@ a.active {
   height: 272px;
   float: right;
   margin-right: 150px;
-  margin-top: 150px;
+  margin-top: -650px;
 }
 /*Section for grided items at the bottom*/
 #contain2{ 

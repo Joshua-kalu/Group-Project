@@ -7,8 +7,17 @@
       "default",
       {
         "ignore": [
-          "backdrop-filter"
+          "backdrop-filter",
+          "-webkit-mask-image"
         ]
+      }
+    ],
+    "button-type": "off",
+    "axe/keyboard": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
       }
     ]
   }

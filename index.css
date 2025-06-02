@@ -1,0 +1,269 @@
+/*Icon image*/
+#icon { 
+  display: inline;
+  float: left;
+  margin-left: 55px;
+  padding-top: 20px;
+}
+/*Line between icon and navbar*/
+#line { 
+  width: 537px;
+  height: 0.9px;
+  background-color: rgba(255, 255, 255, 0.1) ;
+  margin-left: 140px;
+  margin-top: 45px;
+  float: left;
+  -webkit-mask-image: linear-gradient( to right, black 90%, transparent 100%);
+  mask-image: linear-gradient( to right, black 90%, transparent 100%);
+}
+/*Navbar links*/
+#navbar a { 
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  display: inline;
+  text-align: center;
+  padding: 29px 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+/*Navbar links hover and active*/
+#navbar a:hover,
+a.active { 
+  border-bottom: 3px solid rgba(255, 255, 255, 0.518);
+}
+/*Navbar unordered list*/
+#navbar ul { 
+  list-style-type: none;
+  padding: 30px 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.068);
+  width: 700px;
+  float: right;
+  backdrop-filter: blur(30px);
+  -webkit-mask-image: linear-gradient( to left, black 70%, transparent 100%);
+  mask-image: linear-gradient( to left, black 70%, transparent 100%);
+}
+/*Navbar list items*/
+#navbar li { 
+  float: right;
+  position: relative;
+}
+/*Navbar text*/
+#navbar .text { 
+  font-size: 16px;
+  display: inline-block;
+  font-weight: lighter;
+}
+/*Number in navbar*/
+.number { 
+  font-weight: bold;
+  font-family: "barlow condensed", sans-serif;
+}
+/*Navbar text with number*/
+.text1, .text4 {  
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-family: "barlow condensed", sans-serif;
+  font-weight: 200;
+  color: white;
+}
+/*main text section on index page*/
+#text { 
+  float: left;
+  width: 450px;
+  margin-left: 165px;
+  margin-top: 187px;
+}
+/*Main title on pages*/
+h1 { 
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 150px;
+  font-style: normal;
+  color: white;
+  margin: 0;
+}
+/*Text after main title on index page*/
+h5 { 
+  font-size: 20px;
+  letter-spacing: 6px;
+  color: #d0d6f9;
+  font-family: "barlow condensed", sans-serif;
+  font-weight: light;
+  font-weight: 300;
+}
+/*Text paragraph on index page*/
+#p-1 { 
+  font-family: "Barlow condensed", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 450px;
+  color: #d0d6f9;
+  margin-bottom: 60px;
+}
+/*Button on index page*/
+#explore { 
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  color: #0b0d17;
+  border: none;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  float: right;
+  margin-right: 130px;
+  margin-top: 25%;
+}
+#explore a{
+  text-decoration: none;
+  color: #0b0d17;
+}
+
+#explore:hover { 
+  box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.223);
+  background-color: rgb(243, 233, 243);
+}
+/*Body of index page*/
+#body1 {
+  background: url(assets/home/background-home-desktop.jpg) no-repeat center
+    center fixed;
+  margin-right: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*Title: Destination Moon*/
+
+/*Links on destination page*/
+#navbar2 a { 
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  color: white;
+  display: inline;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+/*Navbar on destination page*/
+#navbar2 { 
+  float: right;
+}
+/*Hover effect on navbar links in destination page*/
+#navbar2 a:hover,
+a.active { 
+  border-bottom: 3px solid white;
+}
+/*Navbar list on destination page*/
+#navbar2 ul { 
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  width: 700px;
+  float: right;
+}
+/*Navbar list items on destination page*/
+#navbar2 li { 
+  float: right;
+  position: relative;
+}
+/*Navbar text on destination page*/
+#navbar2 .text { 
+  font-size: 16px;
+  display: inline-block;
+  font-weight: lighter;
+}
+/*Number on destination page*/
+.number2 { 
+  font-size: 20px;
+  font-family: "barlow condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: rgba(255, 255, 255, 0.169);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+/* pick your destination text on destination page*/
+.text2{ 
+  font-size: 24px;
+  font-family: "barlow condensed", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  letter-spacing: 6px;
+}
+/*Paragraph items in contain2 div*/
+ #p-2{ 
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-weight: lighter 200;
+  letter-spacing: 2px; 
+ }
+ /*Text paragraph on destination page*/
+#text3 { 
+  font-family: "barlow condensed", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+  line-height: 1.8;
+  color: white;
+}
+/*Line on destination page*/
+#line2 { 
+  width: 445px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1) ;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+/*Moon image on destination page*/
+#mymoon { 
+  margin-top: 240px;
+  margin-right: 50px;
+  margin-left: 100px;
+  width: 445px;
+  padding-top: 0px;
+}
+/*Second navbar on destination page*/
+#contain { 
+  width: 445px;
+  height: 272px;
+  float: right;
+  margin-right: 150px;
+  margin-top: -650px;
+}
+/*Section for grided items at the bottom*/
+#contain2{ 
+  display: flex;
+  gap: 6rem;
+}
+/*Body of the destination moon page*/
+#body2 { 
+  background: url(assets/destination/background-destination-desktop.jpg)
+    no-repeat center center fixed;
+  margin-right: 0px;
+  background-size: cover;
+  background-position: center;
+}
+#intro-text{
+  display: inline-block;
+  transform: translateY(150px);
+}
+/*Title: Destination Mars*/
+#body3{
+  background: url(assets/destination/background-destination-desktop.jpg);
+}
+/*Title: Destination Europa*/
+#body4{
+  background: url(assets/destination/background-destination-desktop.jpg);
+}

@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url(../font/Barlow_Condensed/BarlowCondensed-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url(../font/Barlow/Barlow-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bellefair';
+  src: url(../font/Bellefair/Bellefair-Regular.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url('../assets/technology/background-technology-desktop.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Barlow';
+  padding-top: 30px;
+}
+
+
+ /*Icon image*/
+#icon { 
+  display: inline;
+  float: left;
+  margin-left: 55px;
+  padding-top: 20px;
+}
+/*Line between icon and navbar*/
+#line { 
+  width: 537px;
+  height: 0.9px;
+  background-color: rgba(255, 255, 255, 0.1) ;
+  margin-left: 140px;
+  margin-top: 45px;
+  float: left;
+  -webkit-mask-image: linear-gradient( to right, black 90%, transparent 100%);
+  mask-image: linear-gradient( to right, black 90%, transparent 100%);
+ 
+}
+
+/*Navbar links*/
+#navbar a { 
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  display: inline;
+  text-align: center;
+  padding: 29px 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  position: relative;
+}
+/*Navbar links hover and active*/
+#navbar .other:hover { 
+  border-bottom: 3px solid rgba(255, 255, 255, 0.342);
+}
+/*Navbar unordered list*/
+#navbar ul { 
+  list-style-type: none;
+  padding: 30px 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.068);
+  width: 700px;
+  float: right;
+  backdrop-filter: blur(30px);
+  -webkit-mask-image: linear-gradient( to left, black 70%, transparent 100%);
+  mask-image: linear-gradient( to left, black 70%, transparent 100%);
+}
+/*Navbar list items*/
+#navbar li { 
+  float: right;
+}
+/*Navbar text*/
+#navbar .text { 
+  font-size: 16px;
+  display: inline-block;
+  font-weight: lighter;
+}
+/*Number in navbar*/
+.number { 
+  font-weight: bold;
+  font-family: "barlow condensed", sans-serif;
+}
+/*Navbar text with number*/
+.text1, .text4 {  
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-family: "barlow condensed", sans-serif;
+  font-weight: 200;
+  color: white;
+} 
+#navbar2 a:hover,
+a.active { 
+  border-bottom: 3px solid white;
+}
+
+
+ 
+.content {
+  clear: both;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tab-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #ebebebe9;
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-button.active {
+  background: #fff;
+  color: #0B0D17;
+}
+.tab-button:hover {
+  border-color: #eaeaea;
+}
+
+.technology-info {
+  max-width: 470px;
+}
+
+.terminology {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #D0D6F9;
+  margin-bottom: 1rem;
+}
+
+.technology-name {
+  font-size: 56px;
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+  font-family: 'Bellefair' , serif;
+  letter-spacing: 0px;
+}
+
+.technology-description {
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+.title {
+  clear: both;
+  float: left;
+  padding-top: 10px;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+  margin: 2rem 2rem;
+  font-style: 'barlow Condensed';
+  font-weight: 400;
+  letter-spacing: 4.72px;
+  color: #fff;
+  margin-top: 120px; /* Add margin to separate from navigation bar */
+  
+}
+
+.title span {
+  color: rgba(255, 255, 255, 0.25);
+  margin-right: 1rem;
+}
+
+.image img {
+width: 80%;
+height: auto;
+float: right;
+margin-left: auto;
+}

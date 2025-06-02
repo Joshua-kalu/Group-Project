@@ -30,8 +30,9 @@
   letter-spacing: 2px;
 }
 /*Navbar links hover and active*/
-#navbar .other:hover { 
-  border-bottom: 3px solid rgba(255, 255, 255, 0.342);
+#navbar a:hover,
+a.active { 
+  border-bottom: 3px solid rgba(255, 255, 255, 0.518);
 }
 /*Navbar unordered list*/
 #navbar ul { 

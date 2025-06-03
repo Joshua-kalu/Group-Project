@@ -266,4 +266,16 @@ a.active {
 /*Title: Destination Europa*/
 #body4{
   background: url(assets/destination/background-destination-desktop.jpg);
+} 
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
 }
+ 
+@media screen and (max-width: 480px) {
+  :root {
+    font-size: 12px;
+  }
+}
+ 

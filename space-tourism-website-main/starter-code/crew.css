@@ -196,3 +196,21 @@ h3 {
   margin-top: -477px;
   margin-right: 100px;
 }
+@media (max-width: 1024px) {
+  #body2 {
+    background: url(assets/crew/background-crew-tablet.jpg) no-repeat ;
+    background-position: center;
+    background-size: fill;
+    max-width: 1024px;
+  }
+  #line {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  
+  #icon {
+
+  }
+  
+}

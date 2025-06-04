@@ -14,6 +14,7 @@
   float: left;
   -webkit-mask-image: linear-gradient( to right, black 90%, transparent 100%);
   mask-image: linear-gradient( to right, black 90%, transparent 100%);
+  margin-right: auto;
 }
 /*Navbar links*/
 #navbar a { 
@@ -39,7 +40,6 @@
 #navbar ul { 
   list-style-type: none;
   padding: 30px 0px;
-  overflow: hidden;
   background-color: rgba(255, 255, 255, 0.068);
   width: 700px;
   float: right;
@@ -78,14 +78,14 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-left: -620px;
-  margin-right: 259px;
-  padding: 22px 900px;
+  margin-left: 19px;
+  margin-right: 290px;
+  padding: 20px 00px;
 }
 #navbar2 a{
-  height: 10px;
-  width: 10px;
-  background-color: rgba(255, 255, 255, 0.286);
+  height: 12px;
+  width: 12px;
+  background-color: rgba(255, 255, 255, 0.46);
   border-radius: 50%;
 }
 #navbar2 a:hover {
@@ -97,9 +97,6 @@
   background-color: rgb(255, 255, 255);
 }
 
-#commander {
-  background-color: #ffffff;
-}
 
 #body2 {
   background: url(assets/crew/background-crew-desktop.jpg) no-repeat center
@@ -112,7 +109,7 @@
 #text { 
   float: left;
   width: 450px;
-  margin-left: 165px;
+  margin-left: 170px;
   margin-top: 50px;
 }
 /*Main title on pages*/
@@ -133,7 +130,8 @@ h5 {
   font-family: "barlow condensed", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin-left: auto;
+
 }
 
 h3 { 
@@ -143,7 +141,9 @@ h3 {
   color: #ffffff6e;
   font-family: "Bellefair", serif;
   font-weight: 300;
+  margin-top: 100px;
 }
+
 .numbers {
   font-weight: bold;
   font-family: "barlow condensed", sans-serif;
@@ -161,56 +161,122 @@ h3 {
   color: #d0d6f9;
   margin-bottom: 60px;
 }
-#image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-top: 50px;
-  float: right;
-}
 
 #image img {
   height: 600px;
-  float: right;
-  margin-top: -470px;
-  margin-right: 100px;
+  flex: right;
+  margin-top: 60px;
+  margin-bottom: -25px;
+  margin-left: 90px;
 }
 
 #image2 img{
   height: 600px;
-  float: right;
-  margin-top: -479px;
-  margin-right: 100px;
+  flex: right;
+  margin-top: 60px;
+  margin-bottom: -25px;
+  margin-left: 90px;
 }
 
 #image3 img{
   height: 600px;
-  float: right;
-  margin-top: -447px;
-  margin-right: 100px;
+  flex: right;
+  margin-top: 60px;
+  margin-bottom: -25px;
+  margin-left: 90px;
 }
 #image4 img{
   height: 600px;
-  float: right;
-  margin-top: -477px;
-  margin-right: 100px;
+  flex: right;
+  margin-top: 60px;
+  margin-bottom: -25px;
+  margin-left: 90px;
 }
 @media (max-width: 1024px) {
   #body2 {
     background: url(assets/crew/background-crew-tablet.jpg) no-repeat ;
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     max-width: 1024px;
   }
+  
   #line {
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 20px;
+    height: 0px;
+    margin-left: 50px ;
   }
-  
-  #icon {
+  #navbar ul {
+    width: 500px;
+    margin-top: -55px;
+    margin-right: 0px;
+    backdrop-filter: blur(30px);
+    -webkit-mask-image: linear-gradient( to left , black 100%, transparent 100%);
+    mask-image: linear-gradient( to left, black 100%, transparent 100%);
+  }
 
+  #navbar a{
+    padding: 29px 15px;
   }
-  
+
+  #space {
+    align-self: center;
+    text-align: center;
+  }
+
+  h3 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  #icon {
+    margin-top: -10px;
+    margin-left: 6px;
+  }
+  h5 {
+    margin-left: -150px;
+    margin-top: 0px;
+  }
+  p {
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #navbar2 {
+    margin-top: -30px;
+    margin-left: 130px;
+    margin-right: 170px;
+  }
+
+  #image img {
+    padding-left: 10px;
+    margin-left: 200px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
+  }
+  #image2 img {
+    padding-left: 10px;
+    margin-left: 120px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
+  }
+  #image3 img {
+    padding-left: 10px;
+    margin-left: 140px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
+  }
+  #image4 img {
+    padding-left: 10px;
+    margin-left: 160px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
+  }
 }

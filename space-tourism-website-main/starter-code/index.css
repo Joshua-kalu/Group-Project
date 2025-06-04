@@ -127,6 +127,10 @@ h5 {
 #explore a{
   text-decoration: none;
   color: #0b0d17;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 72px ;
 }
 
 #explore:hover { 
@@ -273,9 +277,107 @@ a.active {
   }
 }
  
-@media screen and (max-width: 480px) {
-  :root {
-    font-size: 12px;
+@media (max-width: 1024px) {
+  #body2 {
+    background: url(assets/crew/background-crew-tablet.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    max-width: 1024px;
+  }
+  
+  #line {
+    height: 0px;
+    margin-left: 50px ;
+  }
+  #navbar ul {
+    width: 500px;
+    margin-top: -55px;
+    margin-right: 0px;
+    backdrop-filter: blur(30px);
+    -webkit-mask-image: linear-gradient( to left , black 100%, transparent 100%);
+    mask-image: linear-gradient( to left, black 100%, transparent 100%);
+  }
+
+  #navbar a{
+    padding: 29px 15px;
+  }
+  #text {
+    margin-left: 100px;
+  }
+
+  #space {
+    align-self: center;
+    text-align: center;
+  }
+
+  h1 {
+    align-self: center;
+    text-align: center;
+  }
+
+  h3 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  #icon {
+    margin-top: -10px;
+    margin-left: 6px;
+  }
+  h5 {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  p {
+    margin-left: 33px;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #navbar2 {
+    margin-top: -30px;
+    margin-left: 130px;
+    margin-right: 170px;
+  }
+  #explore {
+    margin-right: 240px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  #image img {
+    padding-left: 10px;
+    margin-left: 200px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
+  }
+  #image2 img {
+    padding-left: 10px;
+    margin-left: 120px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
+  }
+  #image3 img {
+    padding-left: 10px;
+    margin-left: 140px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
+  }
+  #image4 img {
+    padding-left: 10px;
+    margin-left: 160px; ;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 500px;
   }
 }
- 

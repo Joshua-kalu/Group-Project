@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url(../font/Barlow_Condensed/BarlowCondensed-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url(../font/Barlow/Barlow-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bellefair';
+  src: url(../font/Bellefair/Bellefair-Regular.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url('../assets/technology/background-technology-desktop.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Barlow';
+}
+
+.technology-content {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+.technology-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tab-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #ebebebe9;
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+ a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-btn.active {
+  background: #fff;
+  color: #0B0D17;
+}
+.tab-btn:hover {
+  border-color: #eaeaea;
+}
+
+.technology-info{
+  max-width: 470px;
+}
+
+.terminology {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #D0D6F9;
+  margin-bottom: 1rem;
+}
+
+.technology-name {
+  font-size: 56px;
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+  font-family: 'Bellefair' , serif;
+  letter-spacing: 0px;
+}
+
+.technology-description {
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+.technology-image{
+  width: 700px;
+}
+.technology-image img {
+  width: 80%;
+  height: auto;
+float: right;
+margin-left: auto;
+}
+
+.page-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+  margin: 2rem 0 2rem 2rem;
+  font-style: 'barlow Condensed';
+  font-weight: 400;
+  letter-spacing: 4.72px;
+  color: #fff;
+ 
+
+}
+
+.page-title span {
+  color: rgba(255, 255, 255, 0.25);
+  margin-right: 1rem;
+}
+
+
+
+
+
+/* Add these media queries at the end of your CSS file */
+
+/* Tablet Styles (900px and below) */
+/* Update the tablet media query */
+@media screen and (max-width: 900px) {
+  /* Existing tablet styles */
+  body {
+    background: url('../assets/technology/background-technology-tablet.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .technology-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .technology-tabs {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  .tab-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+
+  .technology-info {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
+  .technology-name {
+    font-size: 40px;
+  }
+
+  .technology-description {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .technology-image {
+    order: -1;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .technology-image img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Mobile Styles (575px and below) */
+@media screen and (max-width: 575px) {
+  body {
+    background: url('../assets/technology/background-technology-mobile.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .page-title {
+    font-size: 20px;
+    margin: 1rem;
+  }
+
+  .tab-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .technology-info {
+    padding: 0 1rem;
+  }
+
+  .terminology {
+    font-size: 14px;
+  }
+
+  .technology-name {
+    font-size: 32px;
+  }
+
+  .technology-description {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* Adjust navigation for mobile */
+  
+}
+
+/* Add this to handle the image switch between portrait and landscape */
+@media screen and (max-width: 768px) {
+  .tech-img.vehicle[src*="portrait"] {
+    content: url('../assets/technology/image-launch-vehicle-landscape.jpg');
+  }
+  .tech-img.capsule[src*="portrait"] {
+    content: url('../assets/technology/image-space-capsule-landscape.jpg');
+  }
+  .tech-img.spaceport[src*="portrait"] {
+    content: url('../assets/technology/image-spaceport-landscape.jpg');
+  }
+  .technology-image{
+    width: fit-content;
+  }
+}
+
+
+
+
+/* Update the mobile media query */

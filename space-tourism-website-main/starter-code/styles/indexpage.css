@@ -1,0 +1,198 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: url('../assets/home/background-home-desktop.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Barlow';
+}
+@font-face {
+    font-family: 'Barlow';
+    src: url(../font/Barlow/Barlow-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url(../font/Barlow/BarlowCondensed-Regular.ttf) format ('truetype');
+}
+@font-face {
+    font-family: 'Bellefair';
+    src: url(../font/Bellefair/Bellefair-Regular.ttf) format('truetype');
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+.first-column{
+    
+    width: 450px;
+    height: 400px;
+    align-self: center;
+    margin-left: 165px;
+
+}
+
+
+.section-one{
+   
+    width: 385px;
+    height:34px;
+    left: 0.5px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height:100%;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+.section-two{
+   
+    font-size: 150px;
+    height: 172px;
+    width: 450px;
+    top: 58px;
+    font-family: 'Bellefair';
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+.section-three{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 444px;
+    height: 128px;
+    top: 256px;
+    color: #D0D6F9;
+}
+.second-column{
+   
+    width: 274px;
+    height: 274px;
+    margin-left: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+.explore-button{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 148px;
+}
+.second-column:hover{
+    box-shadow: 0 0 0 55px rgba(255, 255, 255, 0.25);
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: url('../assets/home/background-home-tablet.jpg')no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-family: 'Barlow';
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .first-column {
+        width: 450px;
+        height: 450px;
+        align-self: center;
+        margin-left: 0;
+    }
+    .second-column{
+        height: 242px;
+        width: 242px;
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+    .section-one{
+        font-size: 20px;
+        letter-spacing: 3.375px;
+        text-align: center;
+        width: 450px;
+    }
+    .section-two{
+        font-size: 150px;
+        width: 450px;
+        text-align: center;
+    }
+    .section-three{
+        font-size: 16px;
+        line-height: 28px;
+        width: 450px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px)  {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: url('..assets/home/background-home-mobile.jpg')no-repeat center center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .first-column{
+        width: 327px;
+        height: 327px;
+        align-self: center;
+        margin-left: 0;
+    }
+   .second-column{
+        height: 150px;
+        width: 150px;
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+   .section-one{
+        font-size: 16px;
+        letter-spacing: 2.7px;
+        text-align: center;
+        width: 327px;
+    }
+   .section-two{
+        font-size: 80px;
+        width: 327px;
+        text-align: center;
+    }
+   .section-three{
+        font-size: 15px;
+        line-height: 25px;
+        width: 327px;   
+   }
+    
+}
